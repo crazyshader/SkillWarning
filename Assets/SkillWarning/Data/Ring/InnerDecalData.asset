@@ -20,7 +20,7 @@ MonoBehaviour:
   m_DepthFalloff: 0
   m_Angle: 90
   m_AngleFalloff: 0
-  m_LayerMask: 1
+  m_LayerMask: 256
   m_SortingOrder: 0
 --- !u!21 &2697915882142292603
 Material:

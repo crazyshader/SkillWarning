@@ -1,17 +1,17 @@
 {
   "dependencies": {
     "com.kink3d.decals": {
-      "version": "https://github.com/Kink3d/kDecals.git",
+      "version": "http://121.196.145.214:3000/wujun/kDecals.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.kink3d.pooling": "0.1.0",
         "com.unity.render-pipelines.universal": "7.x.x"
       },
-      "hash": "493ce6da5f644a6b3e464fef633111af8f1a3e3a"
+      "hash": "4362605c1df71ec120281bd4021ac342664cbe3c"
     },
     "com.kink3d.pooling": {
-      "version": "https://github.com/Kink3d/kPooling.git",
+      "version": "http://121.196.145.214:3000/wujun/kPooling.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},

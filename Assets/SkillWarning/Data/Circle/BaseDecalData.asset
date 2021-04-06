@@ -20,7 +20,7 @@ MonoBehaviour:
   m_DepthFalloff: 0
   m_Angle: 90
   m_AngleFalloff: 0
-  m_LayerMask: 1
+  m_LayerMask: 256
   m_SortingOrder: -1
 --- !u!21 &2697915882142292603
 Material:
@@ -35,7 +35,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:

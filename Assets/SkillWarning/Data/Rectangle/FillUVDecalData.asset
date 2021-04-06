@@ -20,7 +20,7 @@ MonoBehaviour:
   m_DepthFalloff: 0
   m_Angle: 90
   m_AngleFalloff: 0
-  m_LayerMask: 1
+  m_LayerMask: 256
   m_SortingOrder: 2
 --- !u!21 &2697915882142292603
 Material:
@@ -77,7 +77,7 @@ Material:
     - _DstBlend: 10
     - _EnvironmentReflections: 1
     - _Expand: 0.23333333
-    - _Fill: 0.1335756
+    - _Fill: 1
     - _GlossMapScale: 1
     - _Metallic: 0
     - _OcclusionStrength: 1

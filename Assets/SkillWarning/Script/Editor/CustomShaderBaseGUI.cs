@@ -7,7 +7,7 @@ namespace Framework.Editor
     /// <summary>
     /// Base ShaderGUI class for Decal Shaders.
     /// </summary>
-    public abstract class CustomShaderBaseGUI : ShaderGUI
+    public abstract class CustomShaderBaseGUI : UnityEditor.ShaderGUI
     {
 #region Structs
         struct Styles

@@ -20,7 +20,7 @@ MonoBehaviour:
   m_DepthFalloff: 0
   m_Angle: 90
   m_AngleFalloff: 0
-  m_LayerMask: 1
+  m_LayerMask: 256
   m_SortingOrder: -1
 --- !u!21 &2697915882142292603
 Material:
@@ -31,7 +31,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: BaseDecalData
   m_Shader: {fileID: 4800000, guid: 9c048801826c4cc49801e0d505989cb1, type: 3}
-  m_ShaderKeywords: _BLEND_ALPHA
+  m_ShaderKeywords: _ALPHATEST_ON _BLEND_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _Blend: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
